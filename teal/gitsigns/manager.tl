@@ -75,6 +75,16 @@ function M.apply_win_signs(bufnr: integer, pending: {integer:Sign}, top: integer
   end
 
   signs.add(config, bufnr, scheduled)
+
+  -- local hunks = cache[bufnr].hunks
+
+  -- for _, hunk in ipairs(hunks) do
+  --   if top >= hunk.start and top <= hunk.vend
+  --   or bot >= hunk.start and bot <= hunk.vend
+  --   or hunk.start >= top and hunk.start <= bot then
+  --   dprint(vim.inspect(gs_hunks.process(hunk.lines)))
+  --   end
+  -- end
 end
 
 -- Speculate on future signs. It's not a big deal if we speculate incorrectly as

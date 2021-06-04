@@ -75,6 +75,16 @@ function M.apply_win_signs(bufnr, pending, top, bot)
    end
 
    signs.add(config, bufnr, scheduled)
+
+
+
+
+
+
+
+
+
+
 end
 
 
